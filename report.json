@@ -1,0 +1,47 @@
+{
+  "scan_time_utc": "2026-10-22T07:05:16.781834+00:00",
+  "requested_url": "https://google.com",
+  "final_url": "https://www.google.com/",
+  "status_code": 200,
+  "https": true,
+  "server_header_disclosed": true,
+  "headers": [
+    {
+      "header": "Strict-Transport-Security",
+      "present": false,
+      "value": "",
+      "recommendation": "Helps browsers enforce HTTPS on future connections."
+    },
+    {
+      "header": "Content-Security-Policy",
+      "present": false,
+      "value": "",
+      "recommendation": "Helps control the sources and behavior of page content."
+    },
+    {
+      "header": "X-Content-Type-Options",
+      "present": false,
+      "value": "",
+      "recommendation": "The nosniff value helps prevent MIME-type sniffing."
+    },
+    {
+      "header": "X-Frame-Options",
+      "present": true,
+      "value": "SAMEORIGIN",
+      "recommendation": "Helps control whether a page can be embedded in frames."
+    },
+    {
+      "header": "Referrer-Policy",
+      "present": false,
+      "value": "",
+      "recommendation": "Controls referrer information sent with navigation requests."
+    },
+    {
+      "header": "Permissions-Policy",
+      "present": false,
+      "value": "",
+      "recommendation": "Restricts selected browser features."
+    }
+  ],
+  "note": "This is a basic header review, not proof that a website is secure."
+}
